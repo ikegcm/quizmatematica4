@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz de matematica</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<h4 id="player1Name"></h4>
+<span id="player1Score"></span>
+<br>
+<h4 id="player2Name"></h4>
+<span id="player2Score"></span>
+
+
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">ache o resultado</h2>
+        <h3 id="playerQuestion">Turno de pergunta</h3>
+		<h3 id="playerAnswer">Turno der resposta</h3>
+		<div id="output" class="col-lg-6">
+		<h4 id="wordDisplay">0 x 0</h4>
+		<br>
+		"resposta : "
+		<br>
+		<input type="text" id="inputCheckBox">
+		<br>
+		<br>
+		<button class="btn btn-info" onclick="check"()>checar</button>
+	</div>
+	    <br>
+		<br>
+		
+
+	<input type="text" id="number1" class="from-control" placeholder="1*numero">
+	<br>
+    <br>
+    <br>
+    <input type="text" id="number2" class="from-control" placeholder="2*numero">
+    <br>
+    <br>
+	<button onclick="send()" class="btn btn-success" style="width: 30%;">enviar</button>
+	</center>
+</div>
+<script src="game_page.js"></script>
+</body>
+</html>
